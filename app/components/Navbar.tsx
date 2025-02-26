@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+//This is a NavigationBar
 const Navbar = async () => {
     const session = await auth()
     return (
